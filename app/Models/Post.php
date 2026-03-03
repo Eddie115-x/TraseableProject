@@ -10,12 +10,4 @@ class Post extends Model
         'title',
         'content',
     ];
-
-    public static function run(): void
-    {
-        self::create([
-            'title' => 'First Post',
-            'content' => 'This is my first post.',
-        ]);
-    }
 }
