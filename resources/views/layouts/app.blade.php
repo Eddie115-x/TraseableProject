@@ -36,6 +36,7 @@
         <a href="{{ url('/') }}">Home</a>
         <a href="{{ route('posts.index') }}">Posts</a>
         <a href="{{ route('posts.create') }}">New Post</a>
+        <a href="{{ route('users.index') }}">Users</a>
     </nav>
 
     <div class="container">
