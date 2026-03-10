@@ -26,27 +26,6 @@ class UserSeeder extends Seeder
                 'password' => bcrypt('password'),
                 'created_at' => now(),
                 'updated_at' => now(),
-            ], 
-            [
-                'name' => 'Alice Johnson',
-                'email' => 'alice.johnson@example.com',
-                'password' => bcrypt('password'),
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-             [
-                'name' => 'Bob Brown',
-                'email' => 'bob.brown@example.com',
-                'password' => bcrypt('password'),
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-             [
-                'name' => 'Charlie Davis',
-                'email' => 'charlie.davis@example.com',
-                'password' => bcrypt('password'),
-                'created_at' => now(),
-                'updated_at' => now(),
             ],
         ]);
     }
